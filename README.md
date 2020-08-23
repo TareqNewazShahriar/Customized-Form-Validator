@@ -7,4 +7,4 @@ This Javascript validator is being used to validate one of our web application w
 Enhanced validations:
 * (Remote validation): set the url on the input element to validate it from server.
 * requiredif : the input element will become required based on another control's value.
-* exactLengths : input value have to be of mentioned length or any of the legnths from a comma separated length list.
+* exactLengths : input value length have to be any of the legnths from a list of lengths.
