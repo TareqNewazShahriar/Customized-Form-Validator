@@ -1,4 +1,9 @@
 # Validator for Bootstrap 3 --Customized
-Customized version of Validator v0.11.5 for Bootstrap 3 (originally by @1000hz, released under MIT License) <a href="https://github.com/1000hz/bootstrap-validator">repo</a>
+Customized version of <a href="https://github.com/1000hz/bootstrap-validator">Validator v0.11.5 for Bootstrap 3 (by @1000hz)</a>.
 
-Which working as a Fron-end developer for a SPA project, I selected _Validator_ for validating forms. As the project becoming complex, the Validator was becoming complex, highly modifyed and exhanced; As an example of enhancements- AJAX validation was added. Since this is highly customized so it wasn't pushed to the original repo as a pull request.
+This Javascript validator is being used to validate one of our web application which is a single page application. As the project validation becoming complex, the validator is becoming complex too. So the validator basiclly exhanced. Since this is highly customized, so it wasn't sent to the original repo as a pull request.
+
+Enhanced validations:
+* (Remote validation): set the url on the input element to validate it from server.
+* requiredif : the input element will become required based on another control's value.
+* exactLengths : input value have to be of mentioned length or any of the legnths from a comma separated length list.
